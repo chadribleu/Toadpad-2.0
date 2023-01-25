@@ -1,0 +1,38 @@
+#pragma once
+
+#define IDR_MANIFEST			1
+
+#define IDI_APPICON				101
+#define IDI_APPICON_SM			102
+#define IDI_APPICON_DBG			103
+#define IDI_APPICON_DBG_SM		104
+
+// Controls
+#define IDCTRL_EDIT				3000
+#define IDCTRL_LISTBOX			3001
+
+// Menu commands
+#define IDM_NEW					40001
+#define IDM_NEWTAB				40002
+#define IDM_OPEN				40003
+#define IDM_SAVE				40004
+#define IDM_SAVEAS				40005
+#define IDM_EXIT				40006
+#define IDM_UNDO				40007
+#define IDM_CUT					40008
+#define IDM_COPY				40009
+#define IDM_PASTE				40010
+#define IDM_DELETE				40011
+#define IDM_SELALL				40012
+#define IDM_ENABLEWORDWRAP		40013
+#define IDM_SETFONT				40014
+#define IDM_ENABLESTATUSBAR		40015
+#define IDM_ZOOMIN				40016
+#define IDM_ZOOMOUT				40017
+#define IDM_RESTOREZOOM			40018
+
+// APS
+#define APS_NEXT_RESOURCE_VALUE 102
+#define APS_NEXT_COMMAND_VALUE	40016
+#define APS_NEXT_CONTROL_VALUE	1000
+#define APS_NEXT_SYMED_VALUE	102

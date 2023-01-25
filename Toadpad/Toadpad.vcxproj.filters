@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="source\gui\window.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="source\utils\documenthandler.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="source\gui\edit.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="source\main.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="source\gui\mainwindow.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="source\utils.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="source\utils\shortcut.cpp">
+      <Filter>Fichiers sources\Accelerators</Filter>
+    </ClCompile>
+    <ClCompile Include="source\gui\menu.cpp">
+      <Filter>Fichiers sources\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="source\gui\menubar.cpp">
+      <Filter>Fichiers sources\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="source\gui\menuitem.cpp">
+      <Filter>Fichiers sources\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="source\utils\application.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="source\utils\clipboard.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="source\gui\statusbar.cpp" />
+    <ClCompile Include="source\utils\acceleratortable.cpp" />
+    <ClCompile Include="source\gui\tabcontrol.cpp" />
+    <ClCompile Include="source\utils\configurationmanager.cpp" />
+    <ClCompile Include="source\gui\ListBox.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\gui\window.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="include\utils\documenthandler.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gui\edit.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gui\mainwindow.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="include\constants.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="include\utils.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="include\utils\shortcut.h">
+      <Filter>Fichiers d%27en-tête\Accelerators</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gui\menubar.h">
+      <Filter>Fichiers d%27en-tête\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gui\menuitem.h">
+      <Filter>Fichiers d%27en-tête\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="include\utils\clipboard.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="include\utils\application.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gui\statusbar.h" />
+    <ClInclude Include="include\utils\acceleratortable.h" />
+    <ClInclude Include="include\gui\tabcontrol.h" />
+    <ClInclude Include="include\utils\configurationmanager.h" />
+    <ClInclude Include="include\common.h" />
+    <ClInclude Include="include\resource.h" />
+    <ClInclude Include="include\gui\ListBox.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{81515cd8-0002-46a4-ab51-d3341f334ac6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{b9096bcc-3249-44cb-8d8b-330e302defe5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Accelerators">
+      <UniqueIdentifier>{14761872-5b82-4727-8be8-358e33dff007}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Accelerators">
+      <UniqueIdentifier>{e34db66f-ed35-41b2-9c93-9c61a3fb9ddd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Menu">
+      <UniqueIdentifier>{ebc33407-45bd-4527-831a-996893dddf48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Menu">
+      <UniqueIdentifier>{22aead0d-dc0a-4e3e-90da-99a8abd53d14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers de ressource">
+      <UniqueIdentifier>{9ed9ac89-c6f6-4833-b4cf-7a0b0e4fc970}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="app.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc">
+      <Filter>Fichiers de ressource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="assets\gfx\add_tab_btn_clicked.png" />
+    <Image Include="assets\gfx\add_tab_btn_hovered.png" />
+    <Image Include="assets\gfx\add_tab_btn_normal.png" />
+    <Image Include="assets\gfx\close_button_clicked.png" />
+    <Image Include="assets\gfx\close_button_hovered.png" />
+    <Image Include="assets\gfx\close_button_normal.png" />
+    <Image Include="assets\gfx\doc_state_symb.png" />
+    <Image Include="assets\icon\release\toadpad.ico" />
+    <Image Include="assets\icon\release\toadpad_sm.ico" />
+    <Image Include="assets\icon\debug\toadpad.ico" />
+    <Image Include="assets\icon\debug\toadpad_sm.ico" />
+  </ItemGroup>
+</Project>

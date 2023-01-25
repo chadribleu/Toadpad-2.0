@@ -1,0 +1,152 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Anglais (États-Unis) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// RT_MANIFEST
+//
+
+IDR_MANIFEST            RT_MANIFEST             "app.xml"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_APPICON             ICON                    "assets/icon/release/toadpad.ico"
+
+IDI_APPICON_SM          ICON                    "assets/icon/release/toadpad_sm.ico"
+
+IDI_APPICON_DBG         ICON                    "assets/icon/debug/toadpad.ico"
+
+IDI_APPICON_DBG_SM      ICON                    "assets/icon/debug/toadpad_sm.ico"
+
+#endif    // Anglais (États-Unis) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Français (France) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FRA)
+LANGUAGE LANG_FRENCH, SUBLANG_FRENCH
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_FORMVIEW DIALOGEX 0, 0, 394, 245
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD
+FONT 8, "MS Shell Dlg", 400, 0, 0x0
+BEGIN
+    PUSHBUTTON      "Save",IDC_BUTTON2,337,6,50,14
+    PUSHBUTTON      "Cancel",IDC_BUTTON3,337,22,50,14
+    PUSHBUTTON      "Previous",IDC_BUTTON4,337,57,50,14
+    PUSHBUTTON      "Next",IDC_BUTTON5,337,41,50,14
+    LISTBOX         IDC_LIST3,9,6,126,228,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "",IDC_COMBOBOXEX2,"ComboBoxEx32",CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP,181,195,66,30
+    LTEXT           "Language :",IDC_STATIC,142,197,37,8
+    GROUPBOX        "General settings",IDC_STATIC,141,7,188,116
+    CONTROL         "Show status bar",IDC_CHECK3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,150,20,68,10
+    CONTROL         "Show path in the title bar",IDC_CHECK4,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,150,37,97,10
+    CONTROL         "Splash screen",IDC_CHECK5,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,150,71,60,10
+    CONTROL         "Double buffering",IDC_CHECK6,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,150,88,69,10
+    CONTROL         "Prompt save dialog on close",IDC_CHECK7,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,150,105,105,10
+    CONTROL         "Prompt save dialog on close",IDC_CHECK8,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,150,54,105,10
+    GROUPBOX        "Cached files",IDC_STATIC,142,132,187,59
+    PUSHBUTTON      "Set Reset settings flag",IDC_BUTTON6,225,212,106,23
+    PUSHBUTTON      "Open",IDC_BUTTON7,149,143,50,14
+    PUSHBUTTON      "Clear",IDC_BUTTON8,200,143,50,14
+    CONTROL         "Enable cached file",IDC_CHECK9,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,150,162,73,10
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_FORMVIEW, DIALOG
+    BEGIN
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_FORMVIEW AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+#endif    // Français (France) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
